@@ -4,9 +4,9 @@
 #include <locale.h>
 #include <tlhelp32.h>
 
-#define MAX_THREADS 8
+#define MAX_THREADS 1
 
-int max_threads = 4; // По умолчанию максимальное количество потоков
+int max_threads = 1;
 double **matrix;
 int n;
 
@@ -16,38 +16,31 @@ void print_thread_count() {
     HANDLE hThreadSnap;
     THREADENTRY32 te32;
     int threadCount = 0;
-    DWORD currentProcessId = GetCurrentProcessId(); // Получаем ID текущего процесса
+    DWORD currentProcessId = GetCurrentProcessId();
 
-    // Создаем снимок всех потоков в системе
     hThreadSnap = CreateToolhelp32Snapshot(TH32CS_SNAPTHREAD, 0);
     if (hThreadSnap == INVALID_HANDLE_VALUE) {
         printf("Error. couldnt create snapshot.\n");
         return;
     }
 
-    // Устанавливаем размер структуры THREADENTRY32
     te32.dwSize = sizeof(THREADENTRY32);
 
-    // Получаем информацию о первом потоке
     if (Thread32First(hThreadSnap, &te32)) {
         do {
-            // Если поток принадлежит текущему процессу, увеличиваем счетчик
             if (te32.th32OwnerProcessID == currentProcessId) {
                 threadCount++;
             }
-        } while (Thread32Next(hThreadSnap, &te32)); // Переходим к следующему потоку
+        } while (Thread32Next(hThreadSnap, &te32));
     } else {
         printf("error. couldnt fetch thread information.\n");
     }
 
-    // Закрываем снимок
     CloseHandle(hThreadSnap);
 
-    // Выводим количество потоков
     printf("number of threads in current process: %d\n", threadCount);
 }
 
-// Функция для решения системы линейных уравнений методом Гаусса
 void gaussian_elimination(int thread_id) {
     int i, j, k;
     double factor;
@@ -64,7 +57,6 @@ void gaussian_elimination(int thread_id) {
     }
 }
 
-// Функция, которая будет выполняться в каждом потоке
 DWORD WINAPI thread_function(LPVOID lpParam) {
     int thread_id = *(int *)lpParam;
     gaussian_elimination(thread_id);
@@ -120,7 +112,6 @@ int main(int argc, char *argv[]) {
         CloseHandle(threads[i]);
     }
 
-    // Обратный ход метода Гаусса
     double *x = (double *)malloc(n * sizeof(double));
     for (int i = n - 1; i >= 0; i--) {
         x[i] = matrix[i][n];
@@ -130,9 +121,7 @@ int main(int argc, char *argv[]) {
         x[i] /= matrix[i][i];
     }
 
-    printf("Answer:\n");
     for (int i = 0; i < n; i++) {
-        printf("x[%d] = %lf\n", i, x[i]);
     }
 
     for (int i = 0; i < n; i++) {
