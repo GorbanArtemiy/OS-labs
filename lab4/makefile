@@ -1,19 +1,15 @@
-# Компилятор и флаги
 CC = gcc
 CFLAGS = -c -fPIC
 LDFLAGS = -shared
 DLFLAGS = -ldl
 RM = rm -f
 
-# Исходные файлы
 GCF_SRCS = libgcf_euclid.c libgcf_naive.c
 SQUARE_SRCS = libpi_leibniz.c libpi_wallace.c
 PROGRAMS = program1 program2
 
-# Цели
 all: $(PROGRAMS)
 
-# Динамические библиотеки
 libgcfeuclid.so: libgcf_euclid.o
 	$(CC) $(LDFLAGS) -o $@ $^
 
@@ -26,24 +22,20 @@ libpileibniz.so: libpi_leibniz.o
 libpiwallace.so: libpi_wallace.o
 	$(CC) $(LDFLAGS) -o $@ $^
 
-# Компиляция исходников
 %.o: %.c
 	$(CC) $(CFLAGS) $< -o $@
 
-# Сборка программ
 program1: program1.c libgcfeuclid.so libpileibniz.so
 	$(CC) -o $@ $< -L. -lgcfeuclid -lpileibniz
 
 program2: program2.c libgcfeuclid.so libpileibniz.so
 	$(CC) -o $@ $< $(DLFLAGS)
 
-# Запуск программ
 run1: program1
 	LD_LIBRARY_PATH=$(PWD):$$LD_LIBRARY_PATH ./program1
 
 run2: program2
 	LD_LIBRARY_PATH=$(PWD):$$LD_LIBRARY_PATH ./program2
 
-# Очистка
 clean:
 	$(RM) *.o *.so $(PROGRAMS)
