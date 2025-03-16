@@ -1,6 +1,6 @@
 PARENT = parent
 CHILD = child
-OUTPUT = 1.txt
+OUTPUT = output.txt
 
 all: $(PARENT) $(CHILD) $(OUTPUT)
 

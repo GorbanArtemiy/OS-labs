@@ -1,0 +1,9 @@
+во время работы:
+gauss.exe pid: 10068 DESKTOP-CMAQG3O\arty
+   44: File  (RW-)   C:\Windows
+   94: File  (RW-)   C:\Users\arty\OS-labs\lab2
+  900: Section       \BaseNamedObjects\NLS_CodePage_1252_3_2_0_0
+  9A4: Section       \Sessions\1\BaseNamedObjects\NLS_CodePage_437_3_2_0_0
+
+после завершения работы:
+No matching handles found.

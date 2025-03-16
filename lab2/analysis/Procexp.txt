@@ -1,0 +1,3 @@
+﻿Process	CPU	Private Bytes	Working Set	PID	Description	Company Name
+    gauss.exe		1 308 K	4 556 K	1448		
+

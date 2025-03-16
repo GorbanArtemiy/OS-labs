@@ -1,0 +1,143 @@
+               Process
+Time of Day    Name    PID    Operation              Path                                                                          Result  Detail
+16:46:52,4010209gauss.exe11776Process Start                                                                                        SUCCESS; VSCODE_INJECTION=1
+16:46:52,4010295gauss.exe11776Thread Create                                                                                        SUCCESSThread ID: 15516
+16:46:52,4021594gauss.exe11776Load Image             C:\Users\arty\OS-labs\lab2\gauss.exe                                          SUCCESSImage Base: 0x400000, Image Size: 0x16000
+16:46:52,4022239gauss.exe11776Load Image             C:\Windows\System32\ntdll.dll                                                 SUCCESSImage Base: 0x7fffc2ff0000, Image Size: 0x1f8000
+16:46:52,4022696gauss.exe11776Load Image             C:\Windows\SysWOW64\ntdll.dll                                                 SUCCESSImage Base: 0x77e40000, Image Size: 0x1a4000
+16:46:52,4023788gauss.exe11776RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         REPARSEDesired Access: Query Value
+16:46:52,4024003gauss.exe11776RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSDesired Access: Query Value
+16:46:52,4024327gauss.exe11776RegCloseKey            HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESS
+16:46:52,4024450gauss.exe11776RegOpenKey             HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Segment Heap            REPARSEDesired Access: Query Value
+16:46:52,4024832gauss.exe11776RegOpenKey             HKLM\SYSTEM\CurrentControlSet\Control\Session Manager                         REPARSEDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4024934gauss.exe11776RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4025130gauss.exe11776RegCloseKey            HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESS
+16:46:52,4027983gauss.exe11776CreateFile             C:\Windows                                                                    SUCCESSDesired Access: Execute/Traverse, Synchronize, Disposition: Open
+16:46:52,4029344gauss.exe11776Load Image             C:\Windows\System32\wow64.dll                                                 SUCCESSImage Base: 0x7fffc2850000, Image Size: 0x59000
+16:46:52,4030326gauss.exe11776Load Image             C:\Windows\System32\wow64win.dll                                              SUCCESSImage Base: 0x7fffc17d0000, Image Size: 0x83000
+16:46:52,4036297gauss.exe11776CreateFile              C:\Windows                                                                   SUCCESSDesired Access: Read Attributes, Synchronize, Disposition: Open, O
+16:46:52,4036836gauss.exe11776QueryNameInformationFileC:\Windows                                                                   SUCCESSName: \Windows
+16:46:52,4036999gauss.exe11776CloseFile               C:\Windows                                                                   SUCCESS
+16:46:52,4037360gauss.exe11776RegOpenKey              HKLM\Software\Microsoft\Wow64\x86                                            SUCCESSDesired Access: Read
+16:46:52,4037863gauss.exe11776RegQueryValue          HKLM\SOFTWARE\Microsoft\Wow64\x86\(Default)                                   SUCCESSType: REG_SZ, Length: 26, Data: wow64cpu.dll
+16:46:52,4037983gauss.exe11776RegCloseKey            HKLM\SOFTWARE\Microsoft\Wow64\x86                                             SUCCESS
+16:46:52,4038959gauss.exe11776Load Image             C:\Windows\System32\wow64cpu.dll                                              SUCCESSImage Base: 0x77e30000, Image Size: 0xa000
+16:46:52,4040608gauss.exe11776RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         REPARSEDesired Access: Query Value
+16:46:52,4040772gauss.exe11776RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSDesired Access: Query Value
+16:46:52,4040920gauss.exe11776RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4041139gauss.exe11776RegCloseKey            HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESS
+16:46:52,4041300gauss.exe11776RegOpenKey             HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Segment Heap            REPARSEDesired Access: Query Value
+16:46:52,4041796gauss.exe11776RegOpenKey             HKLM\SYSTEM\CurrentControlSet\Control\Session Manager                         REPARSEDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4041901gauss.exe11776RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4042005gauss.exe11776RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4042184gauss.exe11776RegCloseKey            HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESS
+16:46:52,4045259gauss.exe11776CreateFile             C:\Users\arty\OS-labs\lab2                                                    SUCCESSDesired Access: Execute/Traverse, Synchronize, Disposition: Open
+16:46:52,4046570gauss.exe11776Load Image             C:\Windows\SysWOW64\kernel32.dll                                              SUCCESSImage Base: 0x77ce0000, Image Size: 0xf0000
+16:46:52,4047981gauss.exe11776Load Image             C:\Windows\SysWOW64\KernelBase.dll                                            SUCCESSImage Base: 0x76630000, Image Size: 0x23f000
+16:46:52,4057258gauss.exe11776RegOpenKey             HKLM\System\CurrentControlSet\Control\StateSeparation\RedirectionMap\Keys     REPARSEDesired Access: Read
+16:46:52,4058452gauss.exe11776RegOpenKey                 HKLM\System\CurrentControlSet\Control\Terminal Server                            REPARSEDesired Access: Read
+16:46:52,4058626gauss.exe11776RegOpenKey                 HKLM\System\CurrentControlSet\Control\Terminal Server                            SUCCESSDesired Access: Read
+16:46:52,4058779gauss.exe11776RegSetInfoKey              HKLM\System\CurrentControlSet\Control\Terminal Server                            SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4058975gauss.exe11776RegQueryValue              HKLM\System\CurrentControlSet\Control\Terminal Server\TSUserEnabled              SUCCESSType: REG_DWORD, Length: 4, Data: 0
+16:46:52,4059100gauss.exe11776RegCloseKey                HKLM\System\CurrentControlSet\Control\Terminal Server                            SUCCESS
+16:46:52,4060292gauss.exe11776RegOpenKey                 HKLM\System\CurrentControlSet\Control\SafeBoot\Option                            REPARSEDesired Access: Query Value, Set Value
+16:46:52,4060641gauss.exe11776RegOpenKey                 HKLM\System\CurrentControlSet\Control\Srp\GP\DLL                                 REPARSEDesired Access: Read
+16:46:52,4060918gauss.exe11776RegOpenKey                 HKLM\Software\WOW6432Node\Policies\Microsoft\Windows\Safer\CodeIdentifiers       REPARSEDesired Access: Query Value
+16:46:52,4061278gauss.exe11776RegOpenKey                 HKLM\SOFTWARE\Policies\Microsoft\Windows\Safer\CodeIdentifiers                   SUCCESSDesired Access: Query Value
+16:46:52,4061462gauss.exe11776RegSetInfoKey              HKLM\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers                   SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4061713gauss.exe11776RegCloseKey                HKLM\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers                   SUCCESS
+16:46:52,4062333gauss.exe11776RegOpenKey                 HKLM\System\CurrentControlSet\Control\FileSystem                                   SUCCESSDesired Access: Read
+16:46:52,4062492gauss.exe11776RegSetInfoKey              HKLM\System\CurrentControlSet\Control\FileSystem                                   SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4062741gauss.exe11776RegQueryValue              HKLM\System\CurrentControlSet\Control\FileSystem\LongPathsEnabled                  SUCCESSType: REG_DWORD, Length: 4, Data: 0
+16:46:52,4062859gauss.exe11776RegCloseKey                HKLM\System\CurrentControlSet\Control\FileSystem                                   SUCCESS
+16:46:52,4064377gauss.exe11776Load Image                 C:\Windows\SysWOW64\msvcrt.dll                                                     SUCCESSImage Base: 0x778c0000, Image Size: 0xbf000
+16:46:52,4065318gauss.exe11776Thread Create                                                                                                 SUCCESSThread ID: 12364
+16:46:52,4066202gauss.exe11776Thread Create                                                                                                 SUCCESSThread ID: 7764
+16:46:52,4066254gauss.exe11776RegOpenKey                 HKLM\System\CurrentControlSet\Control\Session Manager                              REPARSEDesired Access: Query Value
+16:46:52,4066388gauss.exe11776RegOpenKey                 HKLM\System\CurrentControlSet\Control\Session Manager                              SUCCESSDesired Access: Query Value
+16:46:52,4066531gauss.exe11776RegSetInfoKey              HKLM\System\CurrentControlSet\Control\Session Manager                              SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4085944gauss.exe11776CreateFile                 Files\Oracle\Java\javapath_target_540909890\libgcc_s_dw2-1.dll                     REPARSEDesired Access: Read Attributes, Disposition: Open, Options: Open
+16:46:52,4119680gauss.exe11776CreateFile                C:\MinGW\bin\libgcc_s_dw2-1.dll                                                     SUCCESSDesired Access: Read Attributes, Disposition: Open, Options: Open
+16:46:52,4119995gauss.exe11776QueryBasicInformationFile C:\MinGW\bin\libgcc_s_dw2-1.dll                                                     SUCCESSCreationTime: 15.12.2024 16:04:24, LastAccessTime: 16.03.2025 1
+16:46:52,4120106gauss.exe11776CloseFile                 C:\MinGW\bin\libgcc_s_dw2-1.dll                                                     SUCCESSDesired Access: Read Data/List Directory, Execute/Traverse, Sync
+16:46:52,4121448gauss.exe11776CreateFile                 C:\MinGW\bin\libgcc_s_dw2-1.dll                                                    SUCCESS Opened
+                                                                                                                                            FILE
+                                                                                                                                            LOCKED
+                                                                                                                                            WITH
+                                                                                                                                            ONLY
+16:46:52,4121787gauss.exe11776CreateFileMapping          C:\MinGW\bin\libgcc_s_dw2-1.dll                                                    READERSSyncType: SyncTypeCreateSection, PageProtection: PAGE_EXEC
+16:46:52,4122056gauss.exe11776CreateFileMapping          C:\MinGW\bin\libgcc_s_dw2-1.dll                                                    SUCCESSSyncType: SyncTypeOther
+16:46:52,4122782gauss.exe11776Load Image                 C:\MinGW\bin\libgcc_s_dw2-1.dll                                                    SUCCESSImage Base: 0x6eb40000, Image Size: 0xdd000
+16:46:52,4123359gauss.exe11776CloseFile                  C:\MinGW\bin\libgcc_s_dw2-1.dll                                                    SUCCESS
+                                                         HKLM\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Image File
+16:46:52,4123960gauss.exe11776RegOpenKey                 Execution Options                                                              REPARSEDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4124243gauss.exe11776RegOpenKey                 HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options SUCCESSDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4124399gauss.exe11776RegSetInfoKey             HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4124551gauss.exe11776RegQueryKey               HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options SUCCESSQuery: HandleTags, HandleTags: 0x400
+16:46:52,4125035gauss.exe11776RegQueryKey               HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options SUCCESSQuery: HandleTags, HandleTags: 0x400
+16:46:52,4126509gauss.exe11776RegOpenKey                HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions                        REPARSEDesired Access: Read
+16:46:52,4126697gauss.exe11776RegOpenKey                HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions                        SUCCESSDesired Access: Read
+16:46:52,4126851gauss.exe11776RegSetInfoKey             HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions                        SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4126936gauss.exe11776RegQueryValue             HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions\(Default)              SUCCESSType: REG_SZ, Length: 18, Data: 00060305
+16:46:52,4127084gauss.exe11776RegQueryValue             HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions\000603xx               SUCCESSType: REG_SZ, Length: 26, Data: kernel32.dll
+16:46:52,4128329gauss.exe11776QueryNameInformationFileC:\Users\arty\OS-labs\lab2\gauss.exe                                                SUCCESSName: \Users\arty\OS-labs\lab2\gauss.exe
+16:46:52,4129124gauss.exe11776RegOpenKey                HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                            REPARSEDesired Access: Read
+16:46:52,4129253gauss.exe11776RegOpenKey                HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                            SUCCESSDesired Access: Read
+16:46:52,4129379gauss.exe11776RegSetInfoKey             HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                            SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4129567gauss.exe11776RegCloseKey               HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                            SUCCESS
+16:46:52,4129685gauss.exe11776RegOpenKey                HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                          REPARSEDesired Access: Read
+16:46:52,4129783gauss.exe11776RegOpenKey                HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                          SUCCESSDesired Access: Read
+16:46:52,4129892gauss.exe11776RegSetInfoKey             HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                          SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4130058gauss.exe11776RegCloseKey               HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                          SUCCESS
+16:46:52,4130267gauss.exe11776RegOpenKey                HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                            REPARSEDesired Access: Read
+16:46:52,4130368gauss.exe11776RegOpenKey                HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                            SUCCESSDesired Access: Read
+16:46:52,4130499gauss.exe11776RegSetInfoKey             HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                            SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4130668gauss.exe11776RegCloseKey               HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                            SUCCESS
+16:46:52,4130782gauss.exe11776RegOpenKey                HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                          REPARSEDesired Access: Read
+16:46:52,4130882gauss.exe11776RegOpenKey                HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                          SUCCESSDesired Access: Read
+16:46:52,4130976gauss.exe11776RegSetInfoKey             HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                          SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4131151gauss.exe11776RegCloseKey               HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                          SUCCESS
+16:46:52,4131323gauss.exe11776RegOpenKey                HKLM\System\CurrentControlSet\Control\Nls\Codepage                                REPARSEDesired Access: Read
+16:46:52,4131423gauss.exe11776RegOpenKey                HKLM\System\CurrentControlSet\Control\Nls\Codepage                                SUCCESSDesired Access: Read
+16:46:52,4131530gauss.exe11776RegSetInfoKey             HKLM\System\CurrentControlSet\Control\Nls\CodePage                                SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4131604gauss.exe11776RegQueryValue             HKLM\System\CurrentControlSet\Control\Nls\CodePage\1251                           SUCCESSType: REG_SZ, Length: 22, Data: c_1251.nls
+16:46:52,4134486gauss.exe11776CreateFile                C:\Windows\System32\C_1251.NLS                                                    SUCCESSDesired Access: Read Attributes, Disposition: Open, Options: Open
+16:46:52,4134979gauss.exe11776QueryBasicInformationFile C:\Windows\System32\C_1251.NLS                                                    SUCCESSCreationTime: 07.12.2019 12:08:49, LastAccessTime: 13.03.2025 1
+16:46:52,4135102gauss.exe11776CloseFile                 C:\Windows\System32\C_1251.NLS                                                    SUCCESS
+16:46:52,4135441gauss.exe11776RegQueryValue             HKLM\System\CurrentControlSet\Control\Nls\CodePage\1251                           SUCCESSType: REG_SZ, Length: 22, Data: c_1251.nls
+16:46:52,4138046gauss.exe11776CreateFile                C:\Windows\System32\C_1251.NLS                                                    SUCCESSDesired Access: Read Attributes, Disposition: Open, Options: Open
+16:46:52,4138488gauss.exe11776QueryBasicInformationFile C:\Windows\System32\C_1251.NLS                                                    SUCCESSCreationTime: 07.12.2019 12:08:49, LastAccessTime: 13.03.2025 1
+16:46:52,4138620gauss.exe11776CloseFile                 C:\Windows\System32\C_1251.NLS                                                    SUCCESS
+16:46:52,4140728gauss.exe11776CreateFile                C:\Users\arty\OS-labs\lab2                                                        SUCCESSDesired Access: Read Data/List Directory, Synchronize, Disposition
+16:46:52,4141222gauss.exe11776QueryDirectory            C:\Users\arty\OS-labs\lab2\*                                                      SUCCESSFileInformationClass: FileBothDirectoryInformation, Filter: *, 2: .
+16:46:52,4141538gauss.exe11776QueryDirectory            C:\Users\arty\OS-labs\lab2                                                        SUCCESSFileInformationClass: FileBothDirectoryInformation, 1: .., 2: .vscode
+                                                                                                                                          NO MORE
+16:46:52,4141808gauss.exe11776QueryDirectory            C:\Users\arty\OS-labs\lab2                                                        FILES   FileInformationClass: FileBothDirectoryInformation
+16:46:52,4141927gauss.exe11776CloseFile                 C:\Users\arty\OS-labs\lab2                                                        SUCCESS
+16:47:00,5947937gauss.exe11776Thread Create                                                                                               SUCCESSThread ID: 3448
+16:47:00,5948370gauss.exe11776Thread Create                                                                                               SUCCESSThread ID: 18968
+16:47:00,5948784gauss.exe11776Thread Create                                                                                               SUCCESSThread ID: 16888
+16:47:00,5949210gauss.exe11776Thread Create                                                                                               SUCCESSThread ID: 19328
+16:47:00,5949906gauss.exe11776RegOpenKey                HKLM\SYSTEM\CurrentControlSet\Control\Session Manager                             REPARSEDesired Access: Query Value, Enumerate Sub Keys
+16:47:00,5950141gauss.exe11776RegOpenKey                HKLM\System\CurrentControlSet\Control\Session Manager                             SUCCESSDesired Access: Query Value, Enumerate Sub Keys
+16:47:00,5950368gauss.exe11776RegSetInfoKey             HKLM\System\CurrentControlSet\Control\Session Manager                             SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:47:00,5950605gauss.exe11776RegCloseKey               HKLM\System\CurrentControlSet\Control\Session Manager                             SUCCESS
+16:47:00,5952464gauss.exe11776Thread Exit                                                                                                 SUCCESSThread ID: 19328, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5952493gauss.exe11776Thread Exit                                                                                                 SUCCESSThread ID: 18968, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5952503gauss.exe11776Thread Exit                                                                                                 SUCCESSThread ID: 3448, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5952526gauss.exe11776Thread Exit                                                                                                 SUCCESSThread ID: 16888, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5959865gauss.exe11776Thread Exit                                                                                                 SUCCESSThread ID: 7764, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5960024gauss.exe11776Thread Exit                                                                                                 SUCCESSThread ID: 12364, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5960325gauss.exe11776Thread Exit                                                                                                 SUCCESSThread ID: 15516, User Time: 0.0000000, Kernel Time: 0.0312500
+16:47:00,5962566gauss.exe11776Process Exit                                                                                                SUCCESSExit Status: 0, User Time: 0.0000000 seconds, Kernel Time: 0.0312
+                                                        HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-520262379-
+16:47:00,5962969gauss.exe11776RegOpenKey                1977730853-2121046439-1001                                                        SUCCESSDesired Access: All Access
+                                                        HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-520262379-
+16:47:00,5963293gauss.exe11776RegCloseKey               1977730853-2121046439-1001                                                        SUCCESS
+16:47:00,5963709gauss.exe11776CloseFile                 C:\Windows                                                                        SUCCESS
+16:47:00,5964172gauss.exe11776CloseFile                 C:\Users\arty\OS-labs\lab2                                                        SUCCESS
+16:47:00,5964767gauss.exe11776RegCloseKey               HKLM\System\CurrentControlSet\Control\Session Manager                             SUCCESS
+16:47:00,5964848gauss.exe11776RegCloseKey               HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options SUCCESS
+16:47:00,5964912gauss.exe11776RegCloseKey               HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions                        SUCCESS
+16:47:00,5964979gauss.exe11776RegCloseKey               HKLM\System\CurrentControlSet\Control\Nls\CodePage                                SUCCESS
+

@@ -1,0 +1,134 @@
+Time of Day    Process Name    PID    Operation              Path                                                                          Result  Detail
+16:46:52,4010209computing_node.exe11777Process Start                                                                                        SUCCESS; VSCODE_INJECTION=1
+16:46:52,4010295computing_node.exe11777Thread Create                                                                                        SUCCESSThread ID: 15517
+16:46:52,4021594computing_node.exe11777Load Image             C:\Users\arty\OS-labs\lab3\computing_node.exe                                  SUCCESSImage Base: 0x400000, Image Size: 0x16000
+16:46:52,4022239computing_node.exe11777Load Image             C:\Windows\System32\ntdll.dll                                                 SUCCESSImage Base: 0x7fffc2ff0000, Image Size: 0x1f8000
+16:46:52,4022696computing_node.exe11777Load Image             C:\Windows\SysWOW64\ntdll.dll                                                 SUCCESSImage Base: 0x77e40000, Image Size: 0x1a4000
+16:46:52,4023788computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         REPARSEDesired Access: Query Value
+16:46:52,4024003computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSDesired Access: Query Value
+16:46:52,4024327computing_node.exe11777RegCloseKey            HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESS
+16:46:52,4024450computing_node.exe11777RegOpenKey             HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Segment Heap            REPARSEDesired Access: Query Value
+16:46:52,4024832computing_node.exe11777RegOpenKey             HKLM\SYSTEM\CurrentControlSet\Control\Session Manager                         REPARSEDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4024934computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4025130computing_node.exe11777RegCloseKey            HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESS
+16:46:52,4027983computing_node.exe11777CreateFile             C:\Windows                                                                    SUCCESSDesired Access: Execute/Traverse, Synchronize, Disposition: Open
+16:46:52,4029344computing_node.exe11777Load Image             C:\Windows\System32\wow64.dll                                                 SUCCESSImage Base: 0x7fffc2850000, Image Size: 0x59000
+16:46:52,4030326computing_node.exe11777Load Image             C:\Windows\System32\wow64win.dll                                              SUCCESSImage Base: 0x7fffc17d0000, Image Size: 0x83000
+16:46:52,4036297computing_node.exe11777CreateFile             C:\Windows                                                                    SUCCESSDesired Access: Read Attributes, Synchronize, Disposition: Open
+16:46:52,4036836computing_node.exe11777QueryNameInformationFileC:\Windows                                                                   SUCCESSName: \Windows
+16:46:52,4036999computing_node.exe11777CloseFile              C:\Windows                                                                   SUCCESS
+16:46:52,4037360computing_node.exe11777RegOpenKey             HKLM\Software\Microsoft\Wow64\x86                                             SUCCESSDesired Access: Read
+16:46:52,4037863computing_node.exe11777RegQueryValue          HKLM\SOFTWARE\Microsoft\Wow64\x86\(Default)                                   SUCCESSType: REG_SZ, Length: 26, Data: wow64cpu.dll
+16:46:52,4037983computing_node.exe11777RegCloseKey            HKLM\SOFTWARE\Microsoft\Wow64\x86                                             SUCCESS
+16:46:52,4038959computing_node.exe11777Load Image             C:\Windows\System32\wow64cpu.dll                                              SUCCESSImage Base: 0x77e30000, Image Size: 0xa000
+16:46:52,4040608computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         REPARSEDesired Access: Query Value
+16:46:52,4040772computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSDesired Access: Query Value
+16:46:52,4040920computing_node.exe11777RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4041139computing_node.exe11777RegCloseKey            HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESS
+16:46:52,4041300computing_node.exe11777RegOpenKey             HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Segment Heap            REPARSEDesired Access: Query Value
+16:46:52,4041796computing_node.exe11777RegOpenKey             HKLM\SYSTEM\CurrentControlSet\Control\Session Manager                         REPARSEDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4041901computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4042005computing_node.exe11777RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4042184computing_node.exe11777RegCloseKey            HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESS
+16:46:52,4045259computing_node.exe11777CreateFile             C:\Users\arty\OS-labs\lab3                                                    SUCCESSDesired Access: Execute/Traverse, Synchronize, Disposition: Open
+16:46:52,4046570computing_node.exe11777Load Image             C:\Windows\SysWOW64\kernel32.dll                                              SUCCESSImage Base: 0x77ce0000, Image Size: 0xf0000
+16:46:52,4047981computing_node.exe11777Load Image             C:\Windows\SysWOW64\KernelBase.dll                                            SUCCESSImage Base: 0x76630000, Image Size: 0x23f000
+16:46:52,4057258computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\StateSeparation\RedirectionMap\Keys     REPARSEDesired Access: Read
+16:46:52,4058452computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Terminal Server                         REPARSEDesired Access: Read
+16:46:52,4058626computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Terminal Server                         SUCCESSDesired Access: Read
+16:46:52,4058779computing_node.exe11777RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Terminal Server                         SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4058975computing_node.exe11777RegQueryValue          HKLM\System\CurrentControlSet\Control\Terminal Server\TSUserEnabled           SUCCESSType: REG_DWORD, Length: 4, Data: 0
+16:46:52,4059100computing_node.exe11777RegCloseKey            HKLM\System\CurrentControlSet\Control\Terminal Server                         SUCCESS
+16:46:52,4060292computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\SafeBoot\Option                         REPARSEDesired Access: Query Value, Set Value
+16:46:52,4060641computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Srp\GP\DLL                              REPARSEDesired Access: Read
+16:46:52,4060918computing_node.exe11777RegOpenKey             HKLM\Software\WOW6432Node\Policies\Microsoft\Windows\Safer\CodeIdentifiers   REPARSEDesired Access: Query Value
+16:46:52,4061278computing_node.exe11777RegOpenKey             HKLM\SOFTWARE\Policies\Microsoft\Windows\Safer\CodeIdentifiers               SUCCESSDesired Access: Query Value
+16:46:52,4061462computing_node.exe11777RegSetInfoKey          HKLM\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers               SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4061713computing_node.exe11777RegCloseKey            HKLM\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers               SUCCESS
+16:46:52,4062333computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\FileSystem                              SUCCESSDesired Access: Read
+16:46:52,4062492computing_node.exe11777RegSetInfoKey          HKLM\System\CurrentControlSet\Control\FileSystem                              SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4062741computing_node.exe11777RegQueryValue          HKLM\System\CurrentControlSet\Control\FileSystem\LongPathsEnabled             SUCCESSType: REG_DWORD, Length: 4, Data: 0
+16:46:52,4062859computing_node.exe11777RegCloseKey            HKLM\System\CurrentControlSet\Control\FileSystem                              SUCCESS
+16:46:52,4064377computing_node.exe11777Load Image             C:\Windows\SysWOW64\msvcrt.dll                                                SUCCESSImage Base: 0x778c0000, Image Size: 0xbf000
+16:46:52,4065318computing_node.exe11777Thread Create                                                                                        SUCCESSThread ID: 12365
+16:46:52,4066202computing_node.exe11777Thread Create                                                                                        SUCCESSThread ID: 7765
+16:46:52,4066254computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         REPARSEDesired Access: Query Value
+16:46:52,4066388computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSDesired Access: Query Value
+16:46:52,4066531computing_node.exe11777RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4085944computing_node.exe11777CreateFile             Files\Oracle\Java\javapath_target_540909890\libgcc_s_dw2-1.dll                REPARSEDesired Access: Read Attributes, Disposition: Open, Options: Open
+16:46:52,4119680computing_node.exe11777CreateFile             C:\MinGW\bin\libgcc_s_dw2-1.dll                                                SUCCESSDesired Access: Read Attributes, Disposition: Open, Options: Open
+16:46:52,4119995computing_node.exe11777QueryBasicInformationFile C:\MinGW\bin\libgcc_s_dw2-1.dll                                            SUCCESSCreationTime: 15.12.2024 16:04:24, LastAccessTime: 16.03.2025 1
+16:46:52,4120106computing_node.exe11777CloseFile              C:\MinGW\bin\libgcc_s_dw2-1.dll                                                SUCCESSDesired Access: Read Data/List Directory, Execute/Traverse, Sync
+16:46:52,4121448computing_node.exe11777CreateFile             C:\MinGW\bin\libgcc_s_dw2-1.dll                                                SUCCESS Opened
+16:46:52,4121787computing_node.exe11777CreateFileMapping      C:\MinGW\bin\libgcc_s_dw2-1.dll                                                READERSSyncType: SyncTypeCreateSection, PageProtection: PAGE_EXEC
+16:46:52,4122056computing_node.exe11777CreateFileMapping      C:\MinGW\bin\libgcc_s_dw2-1.dll                                                SUCCESSSyncType: SyncTypeOther
+16:46:52,4122782computing_node.exe11777Load Image             C:\MinGW\bin\libgcc_s_dw2-1.dll                                                SUCCESSImage Base: 0x6eb40000, Image Size: 0xdd000
+16:46:52,4123359computing_node.exe11777CloseFile              C:\MinGW\bin\libgcc_s_dw2-1.dll                                                SUCCESS
+16:46:52,4123960computing_node.exe11777RegOpenKey             HKLM\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options REPARSEDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4124243computing_node.exe11777RegOpenKey             HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options SUCCESSDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4124399computing_node.exe11777RegSetInfoKey          HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4124551computing_node.exe11777RegQueryKey            HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options SUCCESSQuery: HandleTags, HandleTags: 0x400
+16:46:52,4125035computing_node.exe11777RegQueryKey            HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options SUCCESSQuery: HandleTags, HandleTags: 0x400
+16:46:52,4126509computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions                   REPARSEDesired Access: Read
+16:46:52,4126697computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions                   SUCCESSDesired Access: Read
+16:46:52,4126851computing_node.exe11777RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions                   SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4126936computing_node.exe11777RegQueryValue          HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions\(Default)         SUCCESSType: REG_SZ, Length: 18, Data: 00060305
+16:46:52,4127084computing_node.exe11777RegQueryValue          HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions\000603xx          SUCCESSType: REG_SZ, Length: 26, Data: kernel32.dll
+16:46:52,4128329computing_node.exe11777QueryNameInformationFileC:\Users\arty\OS-labs\lab3\computing_node.exe                               SUCCESSName: \Users\arty\OS-labs\lab3\computing_node.exe
+16:46:52,4129124computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                       REPARSEDesired Access: Read
+16:46:52,4129253computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                       SUCCESSDesired Access: Read
+16:46:52,4129379computing_node.exe11777RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                       SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4129567computing_node.exe11777RegCloseKey            HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                       SUCCESS
+16:46:52,4129685computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                     REPARSEDesired Access: Read
+16:46:52,4129783computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                     SUCCESSDesired Access: Read
+16:46:52,4129892computing_node.exe11777RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                     SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4130058computing_node.exe11777RegCloseKey            HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                     SUCCESS
+16:46:52,4130267computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                       REPARSEDesired Access: Read
+16:46:52,4130368computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                       SUCCESSDesired Access: Read
+16:46:52,4130499computing_node.exe11777RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                       SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4130668computing_node.exe11777RegCloseKey            HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                       SUCCESS
+16:46:52,4130782computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                     REPARSEDesired Access: Read
+16:46:52,4130882computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                     SUCCESSDesired Access: Read
+16:46:52,4130976computing_node.exe11777RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                     SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4131151computing_node.exe11777RegCloseKey            HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                     SUCCESS
+16:46:52,4131323computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\Codepage                           REPARSEDesired Access: Read
+16:46:52,4131423computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\Codepage                           SUCCESSDesired Access: Read
+16:46:52,4131530computing_node.exe11777RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Nls\CodePage                           SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4131604computing_node.exe11777RegQueryValue          HKLM\System\CurrentControlSet\Control\Nls\CodePage\1251                      SUCCESSType: REG_SZ, Length: 22, Data: c_1251.nls
+16:46:52,4134486computing_node.exe11777CreateFile             C:\Windows\System32\C_1251.NLS                                                SUCCESSDesired Access: Read Attributes, Disposition: Open, Options: Open
+16:46:52,4134979computing_node.exe11777QueryBasicInformationFile C:\Windows\System32\C_1251.NLS                                            SUCCESSCreationTime: 07.12.2019 12:08:49, LastAccessTime: 13.03.2025 1
+16:46:52,4135102computing_node.exe11777CloseFile              C:\Windows\System32\C_1251.NLS                                                SUCCESS
+16:46:52,4135441computing_node.exe11777RegQueryValue          HKLM\System\CurrentControlSet\Control\Nls\CodePage\1251                      SUCCESSType: REG_SZ, Length: 22, Data: c_1251.nls
+16:46:52,4138046computing_node.exe11777CreateFile             C:\Windows\System32\C_1251.NLS                                                SUCCESSDesired Access: Read Attributes, Disposition: Open, Options: Open
+16:46:52,4138488computing_node.exe11777QueryBasicInformationFile C:\Windows\System32\C_1251.NLS                                            SUCCESSCreationTime: 07.12.2019 12:08:49, LastAccessTime: 13.03.2025 1
+16:46:52,4138620computing_node.exe11777CloseFile              C:\Windows\System32\C_1251.NLS                                                SUCCESS
+16:46:52,4140728computing_node.exe11777CreateFile             C:\Users\arty\OS-labs\lab3                                                    SUCCESSDesired Access: Read Data/List Directory, Synchronize, Disposition
+16:46:52,4141222computing_node.exe11777QueryDirectory         C:\Users\arty\OS-labs\lab3\*                                                  SUCCESSFileInformationClass: FileBothDirectoryInformation, Filter: *, 2: .
+16:46:52,4141538computing_node.exe11777QueryDirectory         C:\Users\arty\OS-labs\lab3                                                    SUCCESSFileInformationClass: FileBothDirectoryInformation, 1: .., 2: .vscode
+                                                                                                                                          NO MORE
+16:46:52,4141808computing_node.exe11777QueryDirectory         C:\Users\arty\OS-labs\lab3                                                    FILES   FileInformationClass: FileBothDirectoryInformation
+16:46:52,4141927computing_node.exe11777CloseFile              C:\Users\arty\OS-labs\lab3                                                    SUCCESS
+16:47:00,5947937computing_node.exe11777Thread Create                                                                                        SUCCESSThread ID: 3449
+16:47:00,5948370computing_node.exe11777Thread Create                                                                                        SUCCESSThread ID: 18969
+16:47:00,5948784computing_node.exe11777Thread Create                                                                                        SUCCESSThread ID: 16889
+16:47:00,5949210computing_node.exe11777Thread Create                                                                                        SUCCESSThread ID: 19329
+16:47:00,5949906computing_node.exe11777RegOpenKey             HKLM\SYSTEM\CurrentControlSet\Control\Session Manager                         REPARSEDesired Access: Query Value, Enumerate Sub Keys
+16:47:00,5950141computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSDesired Access: Query Value, Enumerate Sub Keys
+16:47:00,5950368computing_node.exe11777RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:47:00,5950605computing_node.exe11777RegCloseKey            HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESS
+16:47:00,5952464computing_node.exe11777Thread Exit                                                                                          SUCCESSThread ID: 19329, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5952493computing_node.exe11777Thread Exit                                                                                          SUCCESSThread ID: 18969, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5952503computing_node.exe11777Thread Exit                                                                                          SUCCESSThread ID: 3449, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5952526computing_node.exe11777Thread Exit                                                                                          SUCCESSThread ID: 16889, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5959865computing_node.exe11777Thread Exit                                                                                          SUCCESSThread ID: 7765, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5960024computing_node.exe11777Thread Exit                                                                                          SUCCESSThread ID: 12365, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5960325computing_node.exe11777Thread Exit                                                                                          SUCCESSThread ID: 15517, User Time: 0.0000000, Kernel Time: 0.0312500
+16:47:00,5962566computing_node.exe11777Process Exit                                                                                         SUCCESSExit Status: 0, User Time: 0.0000000 seconds, Kernel Time: 0.0312
+16:47:00,5962969computing_node.exe11777RegOpenKey             HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-520262379-1977730853-2121046439-1001 SUCCESSDesired Access: All Access
+16:47:00,5963293computing_node.exe11777RegCloseKey            HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-520262379-1977730853-2121046439-1001 SUCCESS
+16:47:00,5963709computing_node.exe11777CloseFile              C:\Windows                                                                    SUCCESS
+16:47:00,5964172computing_node.exe11777CloseFile              C:\Users\arty\OS-labs\lab3                                                    SUCCESS
+16:47:00,5964767computing_node.exe11777RegCloseKey            HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESS
+16:47:00,5964848computing_node.exe11777RegCloseKey            HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options SUCCESS
+16:47:00,5964912computing_node.exe11777RegCloseKey            HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions                    SUCCESS
+16:47:00,5964979computing_node.exe11777RegCloseKey            HKLM\System\CurrentControlSet\Control\Nls\CodePage                            SUCCESS

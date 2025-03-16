@@ -1,0 +1,133 @@
+Time of Day    Process Name    PID    Operation              Path                                                                          Result  Detail
+16:46:52,4010209allocator_test.exe13996Process Start                                                                                        SUCCESS
+16:46:52,4010295allocator_test.exe13996Thread Create                                                                                        SUCCESSThread ID: 15516
+16:46:52,4021594allocator_test.exe13996Load Image             C:\Windows\System32\ntdll.dll                                                 SUCCESSImage Base: 0x7fffc2ff0000, Image Size: 0x1f8000
+16:46:52,4022239allocator_test.exe13996Load Image             C:\Windows\SysWOW64\ntdll.dll                                                 SUCCESSImage Base: 0x77e40000, Image Size: 0x1a4000
+16:46:52,4023788allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         REPARSEDesired Access: Query Value
+16:46:52,4024003allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSDesired Access: Query Value
+16:46:52,4024327allocator_test.exe13996RegCloseKey            HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESS
+16:46:52,4024450allocator_test.exe13996RegOpenKey             HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Segment Heap            REPARSEDesired Access: Query Value
+16:46:52,4024832allocator_test.exe13996RegOpenKey             HKLM\SYSTEM\CurrentControlSet\Control\Session Manager                         REPARSEDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4024934allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4025130allocator_test.exe13996RegCloseKey            HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESS
+16:46:52,4027983allocator_test.exe13996CreateFile             C:\Windows                                                                    SUCCESSDesired Access: Execute/Traverse, Synchronize, Disposition: Open
+16:46:52,4029344allocator_test.exe13996Load Image             C:\Windows\System32\wow64.dll                                                 SUCCESSImage Base: 0x7fffc2850000, Image Size: 0x59000
+16:46:52,4030326allocator_test.exe13996Load Image             C:\Windows\System32\wow64win.dll                                              SUCCESSImage Base: 0x7fffc17d0000, Image Size: 0x83000
+16:46:52,4036297allocator_test.exe13996CreateFile             C:\Windows                                                                    SUCCESSDesired Access: Read Attributes, Synchronize, Disposition: Open
+16:46:52,4036836allocator_test.exe13996QueryNameInformationFileC:\Windows                                                                   SUCCESSName: \Windows
+16:46:52,4036999allocator_test.exe13996CloseFile              C:\Windows                                                                   SUCCESS
+16:46:52,4037360allocator_test.exe13996RegOpenKey             HKLM\Software\Microsoft\Wow64\x86                                             SUCCESSDesired Access: Read
+16:46:52,4037863allocator_test.exe13996RegQueryValue          HKLM\SOFTWARE\Microsoft\Wow64\x86\(Default)                                   SUCCESSType: REG_SZ, Length: 26, Data: wow64cpu.dll
+16:46:52,4037983allocator_test.exe13996RegCloseKey            HKLM\SOFTWARE\Microsoft\Wow64\x86                                             SUCCESS
+16:46:52,4038959allocator_test.exe13996Load Image             C:\Windows\System32\wow64cpu.dll                                              SUCCESSImage Base: 0x77e30000, Image Size: 0xa000
+16:46:52,4040608allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         REPARSEDesired Access: Query Value
+16:46:52,4040772allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSDesired Access: Query Value
+16:46:52,4040920allocator_test.exe13996RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4041139allocator_test.exe13996RegCloseKey            HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESS
+16:46:52,4041300allocator_test.exe13996RegOpenKey             HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Segment Heap            REPARSEDesired Access: Query Value
+16:46:52,4041796allocator_test.exe13996RegOpenKey             HKLM\SYSTEM\CurrentControlSet\Control\Session Manager                         REPARSEDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4041901allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4042005allocator_test.exe13996RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4042184allocator_test.exe13996RegCloseKey            HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESS
+16:46:52,4045259allocator_test.exe13996CreateFile             C:\Users\arty\OS-labs\lab4                                                    SUCCESSDesired Access: Execute/Traverse, Synchronize, Disposition: Open
+16:46:52,4046570allocator_test.exe13996Load Image             C:\Windows\SysWOW64\kernel32.dll                                              SUCCESSImage Base: 0x77ce0000, Image Size: 0xf0000
+16:46:52,4047981allocator_test.exe13996Load Image             C:\Windows\SysWOW64\KernelBase.dll                                            SUCCESSImage Base: 0x76630000, Image Size: 0x23f000
+16:46:52,4057258allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\StateSeparation\RedirectionMap\Keys     REPARSEDesired Access: Read
+16:46:52,4058452allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Terminal Server                         REPARSEDesired Access: Read
+16:46:52,4058626allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Terminal Server                         SUCCESSDesired Access: Read
+16:46:52,4058779allocator_test.exe13996RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Terminal Server                         SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4058975allocator_test.exe13996RegQueryValue          HKLM\System\CurrentControlSet\Control\Terminal Server\TSUserEnabled           SUCCESSType: REG_DWORD, Length: 4, Data: 0
+16:46:52,4059100allocator_test.exe13996RegCloseKey            HKLM\System\CurrentControlSet\Control\Terminal Server                         SUCCESS
+16:46:52,4060292allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\SafeBoot\Option                         REPARSEDesired Access: Query Value, Set Value
+16:46:52,4060641allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Srp\GP\DLL                              REPARSEDesired Access: Read
+16:46:52,4060918allocator_test.exe13996RegOpenKey             HKLM\Software\WOW6432Node\Policies\Microsoft\Windows\Safer\CodeIdentifiers   REPARSEDesired Access: Query Value
+16:46:52,4061278allocator_test.exe13996RegOpenKey             HKLM\SOFTWARE\Policies\Microsoft\Windows\Safer\CodeIdentifiers               SUCCESSDesired Access: Query Value
+16:46:52,4061462allocator_test.exe13996RegSetInfoKey          HKLM\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers               SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4061713allocator_test.exe13996RegCloseKey            HKLM\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers               SUCCESS
+16:46:52,4062333allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\FileSystem                              SUCCESSDesired Access: Read
+16:46:52,4062492allocator_test.exe13996RegSetInfoKey          HKLM\System\CurrentControlSet\Control\FileSystem                              SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4062741allocator_test.exe13996RegQueryValue          HKLM\System\CurrentControlSet\Control\FileSystem\LongPathsEnabled             SUCCESSType: REG_DWORD, Length: 4, Data: 0
+16:46:52,4062859allocator_test.exe13996RegCloseKey            HKLM\System\CurrentControlSet\Control\FileSystem                              SUCCESS
+16:46:52,4064377allocator_test.exe13996Load Image             C:\Windows\SysWOW64\msvcrt.dll                                                SUCCESSImage Base: 0x778c0000, Image Size: 0xbf000
+16:46:52,4065318allocator_test.exe13996Thread Create                                                                                        SUCCESSThread ID: 12364
+16:46:52,4066202allocator_test.exe13996Thread Create                                                                                        SUCCESSThread ID: 7764
+16:46:52,4066254allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         REPARSEDesired Access: Query Value
+16:46:52,4066388allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSDesired Access: Query Value
+16:46:52,4066531allocator_test.exe13996RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4085944allocator_test.exe13996CreateFile             Files\Oracle\Java\javapath_target_540909890\libgcc_s_dw2-1.dll                REPARSEDesired Access: Read Attributes, Disposition: Open, Options: Open
+16:46:52,4119680allocator_test.exe13996CreateFile             C:\MinGW\bin\libgcc_s_dw2-1.dll                                                SUCCESSDesired Access: Read Attributes, Disposition: Open, Options: Open
+16:46:52,4119995allocator_test.exe13996QueryBasicInformationFile C:\MinGW\bin\libgcc_s_dw2-1.dll                                            SUCCESSCreationTime: 15.12.2024 16:04:24, LastAccessTime: 16.03.2025 1
+16:46:52,4120106allocator_test.exe13996CloseFile              C:\MinGW\bin\libgcc_s_dw2-1.dll                                                SUCCESSDesired Access: Read Data/List Directory, Execute/Traverse, Sync
+16:46:52,4121448allocator_test.exe13996CreateFile             C:\MinGW\bin\libgcc_s_dw2-1.dll                                                SUCCESS Opened
+16:46:52,4121787allocator_test.exe13996CreateFileMapping      C:\MinGW\bin\libgcc_s_dw2-1.dll                                                READERSSyncType: SyncTypeCreateSection, PageProtection: PAGE_EXEC
+16:46:52,4122056allocator_test.exe13996CreateFileMapping      C:\MinGW\bin\libgcc_s_dw2-1.dll                                                SUCCESSSyncType: SyncTypeOther
+16:46:52,4122782allocator_test.exe13996Load Image             C:\MinGW\bin\libgcc_s_dw2-1.dll                                                SUCCESSImage Base: 0x6eb40000, Image Size: 0xdd000
+16:46:52,4123359allocator_test.exe13996CloseFile              C:\MinGW\bin\libgcc_s_dw2-1.dll                                                SUCCESS
+16:46:52,4123960allocator_test.exe13996RegOpenKey             HKLM\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options REPARSEDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4124243allocator_test.exe13996RegOpenKey             HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options SUCCESSDesired Access: Query Value, Enumerate Sub Keys
+16:46:52,4124399allocator_test.exe13996RegSetInfoKey          HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4124551allocator_test.exe13996RegQueryKey            HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options SUCCESSQuery: HandleTags, HandleTags: 0x400
+16:46:52,4125035allocator_test.exe13996RegQueryKey            HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options SUCCESSQuery: HandleTags, HandleTags: 0x400
+16:46:52,4126509allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions                   REPARSEDesired Access: Read
+16:46:52,4126697allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions                   SUCCESSDesired Access: Read
+16:46:52,4126851allocator_test.exe13996RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions                   SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4126936allocator_test.exe13996RegQueryValue          HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions\(Default)         SUCCESSType: REG_SZ, Length: 18, Data: 00060305
+16:46:52,4127084allocator_test.exe13996RegQueryValue          HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions\000603xx          SUCCESSType: REG_SZ, Length: 26, Data: kernel32.dll
+16:46:52,4128329allocator_test.exe13996QueryNameInformationFileC:\Users\arty\OS-labs\lab4\allocator_test.exe                               SUCCESSName: \Users\arty\OS-labs\lab4\allocator_test.exe
+16:46:52,4129124allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                       REPARSEDesired Access: Read
+16:46:52,4129253allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                       SUCCESSDesired Access: Read
+16:46:52,4129379allocator_test.exe13996RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                       SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4129567allocator_test.exe13996RegCloseKey            HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                       SUCCESS
+16:46:52,4129685allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                     REPARSEDesired Access: Read
+16:46:52,4129783allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                     SUCCESSDesired Access: Read
+16:46:52,4129892allocator_test.exe13996RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                     SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4130058allocator_test.exe13996RegCloseKey            HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                     SUCCESS
+16:46:52,4130267allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                       REPARSEDesired Access: Read
+16:46:52,4130368allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                       SUCCESSDesired Access: Read
+16:46:52,4130499allocator_test.exe13996RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                       SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4130668allocator_test.exe13996RegCloseKey            HKLM\System\CurrentControlSet\Control\Nls\CustomLocale                       SUCCESS
+16:46:52,4130782allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                     REPARSEDesired Access: Read
+16:46:52,4130882allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                     SUCCESSDesired Access: Read
+16:46:52,4130976allocator_test.exe13996RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                     SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4131151allocator_test.exe13996RegCloseKey            HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale                     SUCCESS
+16:46:52,4131323allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\Codepage                           REPARSEDesired Access: Read
+16:46:52,4131423allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Nls\Codepage                           SUCCESSDesired Access: Read
+16:46:52,4131530allocator_test.exe13996RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Nls\CodePage                           SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:46:52,4131604allocator_test.exe13996RegQueryValue          HKLM\System\CurrentControlSet\Control\Nls\CodePage\1251                      SUCCESSType: REG_SZ, Length: 22, Data: c_1251.nls
+16:46:52,4134486allocator_test.exe13996CreateFile             C:\Windows\System32\C_1251.NLS                                                SUCCESSDesired Access: Read Attributes, Disposition: Open, Options: Open
+16:46:52,4134979allocator_test.exe13996QueryBasicInformationFile C:\Windows\System32\C_1251.NLS                                            SUCCESSCreationTime: 07.12.2019 12:08:49, LastAccessTime: 13.03.2025 1
+16:46:52,4135102allocator_test.exe13996CloseFile              C:\Windows\System32\C_1251.NLS                                                SUCCESS
+16:46:52,4135441allocator_test.exe13996RegQueryValue          HKLM\System\CurrentControlSet\Control\Nls\CodePage\1251                      SUCCESSType: REG_SZ, Length: 22, Data: c_1251.nls
+16:46:52,4138046allocator_test.exe13996CreateFile             C:\Windows\System32\C_1251.NLS                                                SUCCESSDesired Access: Read Attributes, Disposition: Open, Options: Open
+16:46:52,4138488allocator_test.exe13996QueryBasicInformationFile C:\Windows\System32\C_1251.NLS                                            SUCCESSCreationTime: 07.12.2019 12:08:49, LastAccessTime: 13.03.2025 1
+16:46:52,4138620allocator_test.exe13996CloseFile              C:\Windows\System32\C_1251.NLS                                                SUCCESS
+16:46:52,4140728allocator_test.exe13996CreateFile             C:\Users\arty\OS-labs\lab4                                                    SUCCESSDesired Access: Read Data/List Directory, Synchronize, Disposition
+16:46:52,4141222allocator_test.exe13996QueryDirectory         C:\Users\arty\OS-labs\lab4\*                                                  SUCCESSFileInformationClass: FileBothDirectoryInformation, Filter: *, 2: .
+16:46:52,4141538allocator_test.exe13996QueryDirectory         C:\Users\arty\OS-labs\lab4                                                    SUCCESSFileInformationClass: FileBothDirectoryInformation, 1: .., 2: .vscode
+                                                                                                                                          NO MORE
+16:46:52,4141808allocator_test.exe13996QueryDirectory         C:\Users\arty\OS-labs\lab4                                                    FILES   FileInformationClass: FileBothDirectoryInformation
+16:46:52,4141927allocator_test.exe13996CloseFile              C:\Users\arty\OS-labs\lab4                                                    SUCCESS
+16:47:00,5947937allocator_test.exe13996Thread Create                                                                                        SUCCESSThread ID: 3448
+16:47:00,5948370allocator_test.exe13996Thread Create                                                                                        SUCCESSThread ID: 18968
+16:47:00,5948784allocator_test.exe13996Thread Create                                                                                        SUCCESSThread ID: 16888
+16:47:00,5949210allocator_test.exe13996Thread Create                                                                                        SUCCESSThread ID: 19328
+16:47:00,5949906allocator_test.exe13996RegOpenKey             HKLM\SYSTEM\CurrentControlSet\Control\Session Manager                         REPARSEDesired Access: Query Value, Enumerate Sub Keys
+16:47:00,5950141allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSDesired Access: Query Value, Enumerate Sub Keys
+16:47:00,5950368allocator_test.exe13996RegSetInfoKey          HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESSKeySetInformationClass: KeySetHandleTagsInformation, Length: 0
+16:47:00,5950605allocator_test.exe13996RegCloseKey            HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESS
+16:47:00,5952464allocator_test.exe13996Thread Exit                                                                                          SUCCESSThread ID: 19328, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5952493allocator_test.exe13996Thread Exit                                                                                          SUCCESSThread ID: 18968, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5952503allocator_test.exe13996Thread Exit                                                                                          SUCCESSThread ID: 3448, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5952526allocator_test.exe13996Thread Exit                                                                                          SUCCESSThread ID: 16888, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5959865allocator_test.exe13996Thread Exit                                                                                          SUCCESSThread ID: 7764, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5960024allocator_test.exe13996Thread Exit                                                                                          SUCCESSThread ID: 12364, User Time: 0.0000000, Kernel Time: 0.0000000
+16:47:00,5960325allocator_test.exe13996Thread Exit                                                                                          SUCCESSThread ID: 15516, User Time: 0.0000000, Kernel Time: 0.0312500
+16:47:00,5962566allocator_test.exe13996Process Exit                                                                                         SUCCESSExit Status: 0, User Time: 0.0000000 seconds, Kernel Time: 0.0312
+16:47:00,5962969allocator_test.exe13996RegOpenKey             HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-520262379-1977730853-2121046439-1001 SUCCESSDesired Access: All Access
+16:47:00,5963293allocator_test.exe13996RegCloseKey            HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-520262379-1977730853-2121046439-1001 SUCCESS
+16:47:00,5963709allocator_test.exe13996CloseFile              C:\Windows                                                                    SUCCESS
+16:47:00,5964172allocator_test.exe13996CloseFile              C:\Users\arty\OS-labs\lab4                                                    SUCCESS
+16:47:00,5964767allocator_test.exe13996RegCloseKey            HKLM\System\CurrentControlSet\Control\Session Manager                         SUCCESS
+16:47:00,5964848allocator_test.exe13996RegCloseKey            HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options SUCCESS
+16:47:00,5964912allocator_test.exe13996RegCloseKey            HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions                    SUCCESS
+16:47:00,5964979allocator_test.exe13996RegCloseKey            HKLM\System\CurrentControlSet\Control\Nls\CodePage                            SUCCESS

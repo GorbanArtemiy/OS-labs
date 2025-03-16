@@ -1,0 +1,14 @@
+во врем€ работы:
+master_node.exe pid: 1564 DESKTOP-CMAQG3O\arty
+   44: File  (RW-)   C:\Windows\System32
+   94: File  (RW-)   C:\Users\arty\OS-labs\lab5-7
+  100: Section       \BaseNamedObjects\ZeroMQ
+  200: Socket        tcp://localhost:4001
+  201: Socket        tcp://localhost:4002
+  202: Socket        tcp://localhost:4003
+  300: Process       computing_node.exe (pid: 8660)
+  301: Process       computing_node.exe (pid: 9140)
+  400: Mutex         \BaseNamedObjects\CriticalSection
+
+ѕосле завершени€ работы:
+  No matching handles found.

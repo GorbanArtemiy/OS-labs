@@ -1,0 +1,9 @@
+во врем€ работы:
+kp.exe pid: 5412 DESKTOP-CMAQG3O\arty
+   44: File  (RW-)   C:\Windows
+   94: File  (RW-)   C:\Users\arty\OS-labs\lab4
+  100: Section       \BaseNamedObjects\AllocatorSection
+  200: Mutex         \BaseNamedObjects\AllocatorMutex
+
+ѕосле завершени€ работы:
+  No matching handles found.

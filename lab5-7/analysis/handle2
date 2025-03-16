@@ -1,0 +1,10 @@
+во врем€ работы:
+computing_node.exe pid: 1872 DESKTOP-CMAQG3O\arty
+   44: File  (RW-)   C:\Windows\System32
+   94: File  (RW-)   C:\Users\arty\OS-labs\lab5-7
+  100: Section       \BaseNamedObjects\ZeroMQ
+  200: Socket        tcp://*:4001
+  300: Mutex         \BaseNamedObjects\CriticalSection
+
+ѕосле завершени€ работы:
+  No matching handles found.

@@ -4,7 +4,7 @@
 #include <locale.h>
 #include <tlhelp32.h>
 
-#define MAX_THREADS 1
+#define MAX_THREADS 10
 
 int max_threads = 1;
 double **matrix;
@@ -121,7 +121,9 @@ int main(int argc, char *argv[]) {
         x[i] /= matrix[i][i];
     }
 
+    printf("Решение системы:\n");
     for (int i = 0; i < n; i++) {
+        printf("x[%d] = %lf\n", i, x[i]);
     }
 
     for (int i = 0; i < n; i++) {

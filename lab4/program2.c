@@ -17,14 +17,14 @@ int main() {
 
   char command[256];
 
-  printf("\n=================================\n\n");
+  printf("\n-----\n\n");
   printf("Commands:\n");
   printf("0: Switch implementations\n");
   printf("1 <int> <int>: Calculate GCF\n");
   printf("2 <float>: Calculate Pi\n");
   printf("3: Show current implementations\n");
   printf("4: Exit\n\n");
-  printf("=================================\n\n");
+  printf("-----\n\n");
 
   while (1) {
     printf("Enter command: ");
